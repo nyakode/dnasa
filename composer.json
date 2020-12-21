@@ -1,0 +1,16 @@
+{
+    "name": "ferncastillo/dnasa_app",
+    "description": "Proyecto",
+    "authors": [
+        {
+            "name": "Fernando Castillo",
+            "email": "ferncastillo@css.gob.pa"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "license": "MIT",
+    "scripts": {
+      "start": ""
+    }
+}
