@@ -6,7 +6,7 @@ namespace App\Models;
  * 
  */
 
-class infemergencia {
+class Infemergencia {
 
    public static function create($data) {
       $sql = "INSERT INTO inf_emergencia(contacto, relacion, telefono) VALUES (:contacto, :relacion, :telefono)";

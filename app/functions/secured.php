@@ -70,5 +70,13 @@ class Secured {
 	public function get_expiration() {
 		return $this->exp;
 	}
+        
+        public static function isLogin() {
+           if(!isset($_SESSION['LOGIN'])){
+              \App\Functions\Redirect::to('home/auth');
+           } elseif (empty ($_SESSION['LOGIN'])) {
+              \App\Functions\Redirect::to('home/auth');
+           }
+        }
 
 }
