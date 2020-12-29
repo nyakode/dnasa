@@ -1,0 +1,35 @@
+[29-Dec-2020 08:46:47 America/Panama] #Error Call to undefined method Core\Models::execute()(/srv/http/dnasa_app/app/models/empleados.php): 94
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(1074): App\Models\Empleados::readAll()
+#1 [internal function]: App\Controllers\Ajax::empleados()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa_app/app/controllers/ajax.php(1074): readAll
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(1074): App\Models\Empleados::readAll()
+#1 [internal function]: App\Controllers\Ajax::empleados()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): empleados
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(1074): App\Models\Empleados::readAll()
+#1 [internal function]: App\Controllers\Ajax::empleados()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(1074): App\Models\Empleados::readAll()
+#1 [internal function]: App\Controllers\Ajax::empleados()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(1074): App\Models\Empleados::readAll()
+#1 [internal function]: App\Controllers\Ajax::empleados()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})

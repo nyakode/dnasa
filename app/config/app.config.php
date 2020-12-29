@@ -24,7 +24,7 @@ if (isset($_GET['url'])) {
 
 // define development enviroment
 
-define('DEBUG', false);
+define('DEBUG', true);
 
 if (DEBUG) {
 	ini_set('display_errors', 0);

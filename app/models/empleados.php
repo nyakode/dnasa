@@ -90,9 +90,9 @@ class Empleados {
       $sql = "SELECT e.id,e.iacceso_id, ia.usuario, ia.perfil, ia.avatar, e.icontacto_id, ic.telefono, ic.celular, ic.correo, e.idireccion_id, cc.corregimiento, cc.distrito_id, cd.distrito, cd.provincia_id, cp.provincia, e.iemergencia_id, ie.contacto, ie.relacion, ie.telefono, e.ilaboral_id, il.cargo_id, cc2.cargo, il.codempleado, il.equipo_id, ca.area, ca.alias, cj.nombre AS jefe_nombre, cj.usuario AS jefe_usuario, il.estado_id, ce2.estado, il.ingresodt, e.imedica_id, im.cond_medica, im.tipo_sangre, im.medico, e.ipersonal_id, ip.nombres, ip.apellido, ip.cedula, ip.ecivil_id, ip.genero_id, ip.nacimientodt FROM empleados e LEFT JOIN inf_acceso ia ON ia.id = e.iacceso_id LEFT JOIN inf_contacto ic ON ic.id = e.icontacto_id LEFT JOIN inf_direccion id ON id.id = e.idireccion_id LEFT JOIN cfg_corregimientos cc ON cc.id = id.corregimiento_id LEFT JOIN cfg_distritos cd ON cd.id = cc.distrito_id LEFT JOIN cfg_provincias cp ON cp.id = cd.provincia_id LEFT JOIN inf_emergencia ie ON ie.id = e.iemergencia_id LEFT JOIN inf_laboral il ON il.id = e.ilaboral_id LEFT JOIN inf_medica im ON im.id = e.ilaboral_id LEFT JOIN inf_personal ip ON ip.id = e.ipersonal_id LEFT JOIN cfg_equipos ce ON ce.id = il.equipo_id LEFT JOIN cfg_areas ca ON ca.id = ce.area_id LEFT JOIN cfg_jefes cj ON cj.id = ce.jefe LEFT JOIN cfg_cargos cc2 ON cc2.id = il.cargo_id LEFT JOIN cfg_estados ce2 ON ce2.id = il.estado_id";
       try {
          $cn = \Core\Models::instance();
-         $cn->consulta($sql);
-         $cn->execute();
-         $rst = $cn->fetch_all();
+         $query = $cn->consulta($sql);
+         $query->execute();
+         $rst = $query->fetchAll();
 
          if (empty($rst)) {
             $result = [

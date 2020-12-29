@@ -62,6 +62,7 @@
         </label>
       </div>
       <button class="btn btn-lg btn-outline-primary  btn-block" type="submit">Iniciar Sesi&oacute;n</button>
+      
       <p class="mt-5 mb-3 text-muted">&copy; <?php echo date("Y")?></p>
     </form>
   </div>
