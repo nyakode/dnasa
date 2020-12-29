@@ -33,3 +33,357 @@
 #4 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[29-Dec-2020 10:00:08 America/Panama] #Exception Metodo cfgcorregimientos no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:08:54 America/Panama] #Exception Metodo cfgestados no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:09:11 America/Panama] #Exception Metodo cfggeneros no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:09:16 America/Panama] #Exception Metodo cfgeneros no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:09:20 America/Panama] #Exception Metodo cfgenero no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:09:47 America/Panama] #Error Call to undefined method Core\Models::execute()(/srv/http/dnasa_app/app/models/cfgjefe.php): 94
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa_app/app/controllers/ajax.php(679): readAll
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): cfgjefe
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[29-Dec-2020 10:09:52 America/Panama] #Exception Metodo cfgjefes no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:11:10 America/Panama] #Error Call to undefined method Core\Models::execute()(/srv/http/dnasa_app/app/models/cfgjefe.php): 94
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa_app/app/controllers/ajax.php(679): readAll
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): cfgjefe
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(679): App\Models\Cfgjefe::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgjefe()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[29-Dec-2020 10:14:05 America/Panama] #Error Call to undefined method Core\Models::execute()(/srv/http/dnasa_app/app/models/cfgperfil.php): 94
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa_app/app/controllers/ajax.php(758): readAll
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): cfgperfil
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[29-Dec-2020 10:14:11 America/Panama] #Exception Metodo cfgperfiles no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:38:23 America/Panama] #Exception Metodo cfgperfile no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:39:17 America/Panama] #Exception Metodo cfgperfile no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:39:29 America/Panama] #Error Call to undefined method Core\Models::execute()(/srv/http/dnasa_app/app/models/cfgperfil.php): 94
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa_app/app/controllers/ajax.php(758): readAll
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): cfgperfil
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(758): App\Models\Cfgperfil::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgperfil()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[29-Dec-2020 10:40:17 America/Panama] #Error Call to undefined method Core\Models::execute()(/srv/http/dnasa_app/app/models/cfgpermiso.php): 94
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(837): App\Models\Cfgpermiso::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa_app/app/controllers/ajax.php(837): readAll
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(837): App\Models\Cfgpermiso::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): cfgpermiso
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(837): App\Models\Cfgpermiso::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(837): App\Models\Cfgpermiso::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(837): App\Models\Cfgpermiso::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[29-Dec-2020 10:40:39 America/Panama] #ParseError syntax error, unexpected 'tch' (T_STRING)(/srv/http/dnasa_app/app/models/cfgpermiso.php): 117
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa_app/app/controllers/ajax.php(837): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#3 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa_app/app/controllers/ajax.php(837): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#3 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa_app/app/controllers/ajax.php(837): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa_app/app/controllers/ajax.php(837): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#3 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): cfgpermiso
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa_app/app/controllers/ajax.php(837): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#3 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa_app/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa_app/app/controllers/ajax.php(837): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#3 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa_app/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa_app/app/controllers/ajax.php(837): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::cfgpermiso()
+#3 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[29-Dec-2020 10:41:17 America/Panama] #Error Call to undefined method Core\Models::execute()(/srv/http/dnasa_app/app/models/cfgprovincia.php): 94
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(916): App\Models\Cfgprovincia::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgprovincia()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa_app/app/controllers/ajax.php(916): readAll
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(916): App\Models\Cfgprovincia::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgprovincia()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): cfgprovincia
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(916): App\Models\Cfgprovincia::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgprovincia()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(916): App\Models\Cfgprovincia::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgprovincia()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/app/controllers/ajax.php(916): App\Models\Cfgprovincia::readAll()
+#1 [internal function]: App\Controllers\Ajax::cfgprovincia()
+#2 /srv/http/dnasa_app/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[29-Dec-2020 10:41:24 America/Panama] #Exception Metodo cfgprovincias no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:41:41 America/Panama] #Exception Metodo cfgprovincias no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[29-Dec-2020 10:41:42 America/Panama] #Exception Metodo cfgprovincias no encontrado dentro de el controlador ajax(/srv/http/dnasa_app/core/router.php): 36
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa_app/index.php(20): start
+	 #0 /srv/http/dnasa_app/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
