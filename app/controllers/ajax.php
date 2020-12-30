@@ -1168,6 +1168,7 @@ class Ajax {
                die();
             }
             break;
+            
 
          case 'update':
             if (isset($_POST)) {

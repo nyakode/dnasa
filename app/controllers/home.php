@@ -15,7 +15,11 @@ class Home {
    public function auth($k = "") {
       $_SESSION[LOGIN] = [];
 
+      if (isset($_POST)) {
+         
+      }
+
       \Core\Engine::render();
    }
-
+  
 }
