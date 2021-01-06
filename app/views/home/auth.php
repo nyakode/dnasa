@@ -1,3 +1,4 @@
+<script src="<?php echo URI ?>public/client/api-auth.js"></script>
 <style type="text/css">
    .main {
       display: -ms-flexbox;
@@ -46,16 +47,16 @@
 
 </style>
 
-
+<div>
 <div class="main text-center">
-   <form class="form-signin" id="loginForm">
+   <form class="form-signin" id="loginForm" novalidate>
       <img class="mb-4" src="<?php echo URI . 'public/images/csslogo.png' ?>" alt="" width="72" height="72">
       <h1 class="h3 font-weight-normal">DNASA</h1>
       <h2 class="h4 mb-4"><small>Direcci&oacute;n Nacional de Asistencia de los Servicios al Asegurado</small></h2>
       <label for="usuario" class="sr-only">Nombre de Usuario</label>
-      <input type="text" id="usuario" class="form-control" placeholder="Nombre de Usuario" required autofocus>
+      <input type="text" id="usuario" name ="usuario" class="form-control" placeholder="Nombre de Usuario" required autofocus>
       <label for="clave" class="sr-only">Clave de Acceso</label>
-      <input type="password" id="clave" class="form-control" placeholder="Clave de Acceso" required>
+      <input type="password" id="clave" name ="clave" class="form-control" placeholder="Clave de Acceso" required>
       <div class="checkbox mb-3">
          <label>
             <input type="checkbox" value="remember-me"> Recordar Datos
@@ -66,23 +67,3 @@
       <p class="mt-5 mb-3 text-muted">&copy; <?php echo date("Y") ?></p>
    </form>
 </div>
-
-<script type="text/javascript">
-   $(document).on('click', '#btn-submit', function (e) {
-      var data = {
-         usuario: $("#usuario").val()
-      };
-      $.ajax({
-         url: uri + 'ajax/infacceso/filtrar',
-         type: 'POST',
-         data: data,
-         dataType: 'json'
-      }).done(function (res) {
-         console.log("Autorizado");
-         console.log(res);
-      }).fail(function (err) {
-         console.log("No Autorizado");
-         console.error(err);
-      });
-   });
-</script>

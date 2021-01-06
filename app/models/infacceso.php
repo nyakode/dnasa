@@ -132,7 +132,7 @@ class Infacceso {
          $query->execute($data);
          $rst = $query->fetchAll();
 
-         if (empty($rst)) {
+         if (!empty($rst)) {
             $result = [
                 'response' => true,
                 'class' => 'success',

@@ -72,10 +72,22 @@ class Secured {
 	}
         
         public static function isLogin() {
-           if(!isset($_SESSION['LOGIN'])){
+           if(!isset($_SESSION['AUTH'])){
               \App\Functions\Redirect::to('home/auth');
-           } elseif (empty ($_SESSION['LOGIN'])) {
+           } elseif (empty ($_SESSION['AUTH'])) {
               \App\Functions\Redirect::to('home/auth');
+           } else {
+              return true;
+           }
+        }
+        
+        public static function isNotLogin() {
+           if(isset($_SESSION['AUTH'])){
+              \App\Functions\Redirect::to('home');
+           } elseif (!empty ($_SESSION['AUTH'])) {
+              \App\Functions\Redirect::to('home');
+           } else {
+              return true;
            }
         }
 

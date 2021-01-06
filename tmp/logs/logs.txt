@@ -1,0 +1,16 @@
+[05-Jan-2021 18:50:00 America/Panama] #Exception Controlador <strong>'public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[05-Jan-2021 18:50:00 America/Panama] #Exception Controlador <strong>'public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})

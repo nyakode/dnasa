@@ -8,7 +8,6 @@ class Redirect {
 
 	public static function to($path) {
 		self::$location = $path;
-		echo "Redireccionando a ".self::$location;
 
 		if (headers_sent()) {
 			echo '<script type="text/javascript">';
@@ -17,7 +16,7 @@ class Redirect {
 			echo '<nonscript>';
 			echo '<meta http-equiv="refresh" content="0;url='.URI.self::$location.'" />';
 			echo '</nonscript>';
-			die();
+			//die();
 		}
 
 		if (strpos(self::$location, 'http') !== false) {

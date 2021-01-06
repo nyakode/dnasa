@@ -17,7 +17,7 @@ class Template {
 	public static function getSidebar() {
 		$file = ROOT.'public'.DS.'imports'.DS.'sidebar.php';
 		if (file_exists($file)) {
-			$v = \App\Functions\Secured::auth();
+			$v = \App\Functions\Auth::isAuth();
 			if ($v) {
 				require_once $file;
 			}
@@ -29,7 +29,7 @@ class Template {
 	public static function getNavbar() {
 		$file = ROOT.'public'.DS.'imports'.DS.'navbar.php';
 		if (file_exists($file)) {
-			$v = \App\Functions\Secured::auth();
+			$v = \App\Functions\Auth::isAuth();
 			if ($v) {
 				require_once $file;
 			}

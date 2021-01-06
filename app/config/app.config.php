@@ -7,12 +7,14 @@ define('DIAS', ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 
 define('MESES', ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']);
 
 // define app name
-define('APPNAME', 'APP-DENSA');
+define('APPNAME', 'DNASA');
 
 // define internal paths
 define('DS', DIRECTORY_SEPARATOR);
 define('ROOT', dirname(__DIR__, 2).DS);
 define('CONTROLLER', ROOT.'app'.DS.'controllers'.DS);
+
+
 
 // define url base
 
@@ -21,6 +23,18 @@ if (isset($_GET['url'])) {
 } else {
 	define('URI', 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 }
+
+
+/**
+ * definimos url de acceso
+ */
+
+define("PUBLICS", URI . 'public/');
+define('ASSETS', PUBLICS . 'assets/');
+define('CLIENT', PUBLICS . 'client/');
+define('IMAGES', PUBLICS . 'images/');
+define('IMPORTS', PUBLICS . 'imports/');
+
 
 // define development enviroment
 

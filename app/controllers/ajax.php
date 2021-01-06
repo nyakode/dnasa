@@ -1168,7 +1168,7 @@ class Ajax {
                die();
             }
             break;
-            
+
 
          case 'update':
             if (isset($_POST)) {
@@ -1664,6 +1664,86 @@ class Ajax {
                   $post[":" . $nombre_campo] = $valor;
                }
                $data = \App\Models\Infpersonal::delete($data);
+               header("Content-Type: application/json");
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         default:
+            break;
+      }
+   }
+   
+   
+   public static function qltformulario($method) {
+      switch ($method) {
+         case 'create':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltformulario::create($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'readOne':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltformulario::readOne($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'readAll':
+            $data = \App\Models\Qltformulario::readAll();
+            header('Content-Type: appliction/json');
+            echo json_encode($data);
+            die();
+            break;
+
+         case 'filter':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltformulario::filter($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'update':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltformulario::update($post);
+               header('Content-Type: application/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'delete':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltformulario::delete($data);
                header("Content-Type: application/json");
                echo json_encode($data);
                die();
