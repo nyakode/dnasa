@@ -26,10 +26,12 @@ function login_auth(event) {
       cache: false,
       data: data,
       success: function (data) {
-         window.location.href = uri
+
+         toastr.error(data.message, data.title);
+         window.location.href = uri;
       },
       error: function (e) {
-         console.log(e.responseText);
+         toastr.error(e.message, e.title);
       },
    });
 }

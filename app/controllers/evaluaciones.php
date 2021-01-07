@@ -35,7 +35,7 @@ class Evaluaciones {
    
    
    public function conf_formulario() {
-      if (!\App\Functions\Auth::isAuth()) {
+      if (!\App\Functions\Auth::validateCookie()) {
          \App\Functions\Redirect::to('home/auth');
          die();
       }
@@ -45,7 +45,7 @@ class Evaluaciones {
    }
    
    public function conf_preguntas() {
-      if (!\App\Functions\Auth::isAuth()) {
+      if (!\App\Functions\Auth::validateCookie()) {
          \App\Functions\Redirect::to('home/auth');
          die();
       }
@@ -54,7 +54,7 @@ class Evaluaciones {
    }
    
    public function reportes() {
-      if (!\App\Functions\Auth::isAuth()) {
+      if (!\App\Functions\Auth::validateCookie()) {
          \App\Functions\Redirect::to('home/auth');
          die();
       }
@@ -64,6 +64,13 @@ class Evaluaciones {
    
    
    
-   
+   public function ajaxFormCrear(){
+      if (!\App\Functions\Auth::validateCookie()) {
+         \App\Functions\Redirect::to('home/auth');
+         die();
+      }
+
+
+   }
    
 }

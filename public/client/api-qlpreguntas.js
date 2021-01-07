@@ -1,26 +1,21 @@
-/**
- * Cliente de creacion de formularios
- */
-// autocarga de funciones cuando la pagina esté lista
+// autocarga de funciones
 $(document).ready(function() {
-    listar();
-    listType();
-    $("#estado").attr('checked', false);
-    $("#estado").on("click", checked);
+    //listar();
+    //  listar();
+    listarPreguntas();
+    listForms();
     $("#frm_process").on("click", procesar);
-    $("#tblFomrs").on('click', '.btn-editar', cargarData);
-    $("#tblFomrs").on('click', '.btn-eliminar', eliminarRegistro);
-    $("#frm_reset").on("click", limpiarForm);
+    $("#tbl_preg").on("click", ".btn-editar", cargarDatos);
+    $("#tbl_preg").on("click", ".btn-eliminar", eliminarRegistro);
+    //$("#tbl_preguntas").dataTable();
 });
-
 //FUNCIONALIDAES
-// creacion de tabla
 function listar() {
     $.ajax({
-        url: uri + 'ajax/qltformulario/readAll',
+        url: uri + 'ajax/qltpreguntas/readAll',
         type: 'GET',
         dataType: 'json',
-        //data: {param1: 'value1'},
+        // data: {param1: 'value1'},
         beforeSend: function() {
             $("table").waitMe({
                 waitTime: 800
@@ -30,27 +25,47 @@ function listar() {
         var item = result.data;
         var text = "<tr>";
         for (var i = item.length - 1; i >= 0; i--) {
-            var est = item[i]['estado'] == 1 ? "Activo" : "Inactivo";
-            text += "<td scope='row'>" + item[i]['id'] + "</td>";
-            text += "<td>" + item[i]['frm_nombre'] + "</td>";
-            text += "<td>" + item[i]['frm_descripcion'] + "</td>";
-            text += "<td>" + item[i]['usuario'] + "</td>";
-            text += "<td>" + item[i]['tipo'] + "</td>";
-            text += "<td>" + item[i]['creacion'] + "</td>";
-            text += "<td>" + est + "</td>";
+            text += "<td scope='row'>" + item[i].id + "</td>";
+            text += "<td>" + item[i].frm_nombre + "</td>";
+            text += "<td>" + item[i].pregunta + "</td>";
+            text += "<td>" + item[i].detalle_pregunta + "</td>";
+            text += "<td>" + item[i].valor + "</td>";
             text += "<td><div class='btn-group' role='group' aria-label=''>";
             text += "<button type='button' class='btn btn-sm btn-success btn-editar' ><i class='far fa-edit'></i></button>";
             text += "<button type='button' class='btn  btn-sm btn-danger btn-eliminar'><i class='far fa-trash-alt'></i></button></div></tr>";
         }
-        document.getElementById("tbl_form").innerHTML = text;
+        document.getElementById("tbl_preg").innerHTML = text;
     }).fail(function(e) {
+        console.log(e);
         toastr.error(e.message, e.title);
+    });;
+}
+
+function listarPreguntas() {
+    $("#tbl_preguntas").dataTable({
+        ajax: uri + 'ajax/qltpreguntas/readAll',
+        columnDefs: [{
+            targets: 5,
+            data: null,
+            defaultContent: "<div class='btn-group' role='group'><button type='button' class='btn btn-sm btn-success btn-editar' ><i class='far fa-edit'></i></button><button type='button' class='btn  btn-sm btn-danger btn-eliminar'><i class='far fa-trash-alt'></i></button></div>"
+        }],
+        columns: [{
+            data: 'id'
+        }, {
+            data: 'frm_nombre'
+        }, {
+            data: 'pregunta'
+        }, {
+            data: 'detalle_pregunta'
+        }, {
+            data: 'valor'
+        }],
     });
 }
-// creacion de lista desplegable
-function listType() {
+
+function listForms() {
     $.ajax({
-        url: uri + 'ajax/cfgtipoform/readAll',
+        url: uri + 'ajax/qltformulario/readAll',
         type: 'GET',
         dataType: 'json',
         //data: {param1: 'value1'},
@@ -58,39 +73,27 @@ function listType() {
         var item = result.data;
         var text = "<option>Selecciona una Opcion</option>";
         for (var i = item.length - 1; i >= 0; i--) {
-            text += "<option value='" + item[i]['id'] + "'>" + item[i]['tipo'] + "</option>";
+            text += "<option value='" + item[i]['id'] + "'>" + item[i]['id'] + " - " + item[i].frm_nombre + "</option>";
         }
-        document.getElementById("tipo_form").innerHTML = text;
+        document.getElementById("formulario_id").innerHTML = text;
     }).fail(function(e) {
+        console.log(e)
         toastr.error(e.message, e.title);
     });
 }
-//chequed
-function checked(event) {
-    if ($("#estado").prop('checked') === true) {
-        document.getElementById("checkValue").innerHTML = "Habilitado";
-    } else {
-        document.getElementById("checkValue").innerHTML = "Deshabilitado";
-    }
-}
 
-
-// FUNCIONES CARGADAS POR EVENTOS
-// procesar datos -> modifica un registro existente o guarda uno nuevo
 function procesar(event) {
-    // creamos un array con los campos del formulario
     var data = {
-        frm_nombre: $("#frm_nombre").val(),
-        frm_descripcion: $("#frm_descripcion").val(),
-        tipo_form: $("#tipo_form").val(),
-        estado: $('#estado').prop('checked') ? 1 : 0,
+        formulario_id: $("#formulario_id option:selected").val(),
+        detalle_pregunta: $("#detalle_pregunta").val(),
+        pregunta: $("#pregunta").val(),
+        valor: $("#valor").val(),
     }
-    //validamos si el campo id esta asignado
     if ($("#id").val()) {
-        // de estar asignado, editamos el registro
         data.id = $("#id").val();
+        data.formulario_id = $("#formulario_id").val()
         $.ajax({
-            url: uri + 'ajax/qltformulario/update',
+            url: uri + 'ajax/qltpreguntas/update',
             type: 'POST',
             dataType: 'json',
             data: data,
@@ -102,15 +105,14 @@ function procesar(event) {
             toastr.error(e.message, e.title);
         });
     } else {
-        data.creador = uData.id;
-        data.creacion = '';
         $.ajax({
-            url: uri + 'ajax/qltformulario/create',
+            url: uri + 'ajax/qltpreguntas/create',
             type: 'POST',
             dataType: 'json',
             data: data,
         }).done(function(result) {
             toastr.success(result.message, result.title);
+            console.log(data);
             limpiarForm()
             listar();
         }).fail(function(e) {
@@ -120,13 +122,11 @@ function procesar(event) {
     }
 }
 
-
-// Cargar datos ->llena el formulario con datos existentes para modificarlos
-function cargarData() {
+function cargarDatos() {
     var currentRow = $(this).closest("tr");
     var id = currentRow.find("td:eq(0)").text();
     $.ajax({
-        url: uri + 'ajax/qltformulario/readOne',
+        url: uri + 'ajax/qltpreguntas/readOne',
         type: 'POST',
         dataType: 'json',
         data: {
@@ -135,15 +135,15 @@ function cargarData() {
     }).done(function(result) {
         var frm = result.data[0];
         $("#id").val(frm.id);
-        $("#frm_nombre").val(frm.frm_nombre);
-        $("#frm_descripcion").val(frm.frm_descripcion);
-        $("#tipo_form").val(frm.tipo_form);
-        frm.estado == 0 ? $("#estado").attr('checked', false) : $("#estado").attr('checked', true);
+        $("#formulario_id").val(frm.formulario_id);
+        $("#detalle_pregunta").val(frm.detalle_pregunta);
+        $("#pregunta").val(frm.pregunta);
+        $("#valor").val(frm.valor);
     }).fail(function(e) {
         toastr.error(e.message, e.title);
     });
 }
-// elminar-> borra un registro de la base de datos
+
 function eliminarRegistro() {
     var currentRow = $(this).closest("tr");
     var id = currentRow.find("td:eq(0)").text();
@@ -156,7 +156,7 @@ function eliminarRegistro() {
     }).then((willDelete) => {
         if (willDelete) {
             $.ajax({
-                url: uri + 'ajax/qltformulario/delete',
+                url: uri + 'ajax/qltpreguntas/delete',
                 type: 'POST',
                 dataType: 'json',
                 data: {
@@ -176,7 +176,5 @@ function eliminarRegistro() {
 }
 
 function limpiarForm() {
-    $('#qadmform').trigger('reset');
+    $('#frm_regunta').trigger('reset');
 }
-// limpiar-> vacía los datos del formulario
- 

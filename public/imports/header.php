@@ -14,6 +14,7 @@
       <link rel="stylesheet" href="<?php echo URI . "public/assets/css/mine.css" ?>">
       <link rel="stylesheet" href="<?php echo URI . "public/assets/vendor/toastr/toastr.min.css" ?>">
       <link rel="stylesheet" href="<?php echo URI . "public/assets/vendor/waitme/waitMe.css" ?>">
+      <link rel="stylesheet" href="<?php echo URI . "public/assets/vendor/datatable/jquery.dataTables.min.css" ?>">
 
       <script src="<?php echo URI . "public/assets/vendor/jquery/jquery.js" ?>"></script>
       <script src="<?php echo URI . "public/assets/css/popper.js" ?>"></script>
@@ -21,6 +22,9 @@
       
       <script src="<?php echo URI . "public/assets/vendor/toastr/toastr.min.js" ?>"></script>
       <script src="<?php echo URI . "public/assets/vendor/waitme/waitMe.js" ?>"></script>
+
+      <script src="<?php echo URI . "public/assets/vendor/sweetAlert/sweetalert.min.js" ?>"></script>
+      <script src="<?php echo URI . "public/assets/vendor/datatable/jquery.dataTables.min.js" ?>" ?>"></script>
       
       <script src="<?php echo URI; ?>public/client/main.js"></script>
       

@@ -13,10 +13,10 @@ namespace App\Models;
  *
  * @author nyakode
  */
-class Qltformulario {
+class Qltpregunta {
 
    public static function create($data) {
-      $sql = "INSERT INTO qlt_formulario(frm_nombre, frm_descripcion, tipo_form, creador, estado, creacion) VALUES  (:frm_nombre, :frm_descripcion, :tipo_form, :creador, :estado, :creacion)";
+      $sql = "INSERT INTO qlt_preguntas(formulario_id, detalle_pregunta, pregunta, valor) VALUES (:formulario_id, :detalle_pregunta, :pregunta, :valor)";
       try {
          $cn = \Core\Models::instance();
          $query = $cn->consulta($sql);
@@ -57,12 +57,7 @@ class Qltformulario {
    }
 
    public static function readOne($data) {
-      $sql = "
-              SELECT qf.id, qf.frm_nombre, qf.frm_descripcion, qf.tipo_form, cft.tipo,qf.creador, il.usuario, qf.estado, qf.creacion 
-              FROM qlt_formulario qf 
-              LEFT JOIN inf_laboral il ON il.id = qf.creador 
-              LEFT JOIN cfg_tipoform cft ON cft.id = qf.tipo_form 
-              WHERE qf.id = :id";
+      $sql = "SELECT qlp.id, qlp.formulario_id, qlf.frm_nombre, qlp.detalle_pregunta, qlp.pregunta,  qlp.valor FROM qlt_preguntas qlp LEFT JOIN qlt_formulario qlf ON qlf.id = qlp.formulario_id WHERE qlp.id = :id";
       
       try {
          $cn = \Core\Models::instance();
@@ -105,11 +100,7 @@ class Qltformulario {
    }
 
    public static function readAll() {
-      $sql = "
-              SELECT qf.id, qf.frm_nombre, qf.frm_descripcion, qf.tipo_form, cft.tipo,qf.creador, il.usuario, qf.estado, qf.creacion 
-              FROM qlt_formulario qf 
-              LEFT JOIN inf_laboral il ON il.id = qf.creador 
-              LEFT JOIN cfg_tipoform cft ON cft.id = qf.tipo_form";
+      $sql = "SELECT qlp.id, qlp.formulario_id, qlf.frm_nombre, qlp.detalle_pregunta, qlp.pregunta,  qlp.valor FROM qlt_preguntas qlp LEFT JOIN qlt_formulario qlf ON qlf.id = qlp.formulario_id ";
       try {
          $cn = \Core\Models::instance();
          $query = $cn->consulta($sql);
@@ -117,13 +108,8 @@ class Qltformulario {
          $rst = $query->fetchAll();
 
          if (isset($rst)) {
-            $result = [
-                'response' => true,
-                'class' => 'success',
-                'title' => 'Datos Obtenidos!',
-                'message' => 'Los datos han obtenido satisfactoriamente',
-                'data' => $rst
-            ];
+            $result = ["data" =>$rst];
+            
          } else {
             $result = [
                 'response' => true,
@@ -150,14 +136,14 @@ class Qltformulario {
    }
 
    public static function filter($data) {
-      $sql = "SELECT qf.id, qf.frm_nombre, qf.frm_descripcion, qf.tipo_form, cft.tipo,qf.creador, il.usuario, qf.estado, qf.creacion FROM qlt_formulario qf LEFT JOIN inf_laboral il ON il.id = qf.creador LEFT JOIN cfg_tipoform cft ON cft.id = qf.tipo_form WHERE qf.tipo_form = :tipo_form";
+      $sql = "SELECT qlp.id, qlp.formulario_id, qlf.frm_nombre, qlf.frm_descripcion, qlp.detalle_pregunta, qlp.pregunta,  qlp.valor FROM qlt_preguntas qlp LEFT JOIN qlt_formulario qlf ON qlf.id = qlp.formulario_id  WHERE qlp.formulario_id = :formulario_id";
       try {
          $cn = \Core\Models::instance();
          $query = $cn->consulta($sql);
          $query->execute($data);
          $rst = $query->fetchAll();
 
-         if (empty($rst)) {
+         if (!empty($rst)) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -185,11 +171,13 @@ class Qltformulario {
              'message' => $e->getMessage(),
              'data' => $e->getCode()
          ];
+         return $result;
+         die();
       }
    }
 
    public static function update($data) {
-      $sql = "UPDATE qlt_formulario SET frm_nombre = :frm_nombre, frm_descripcion = :frm_descripcion, tipo_form = :tipo_form, estado = :estado WHERE id = :id";
+      $sql = "UPDATE qlt_preguntas SET formulario_id=:formulario_id ,detalle_pregunta = :detalle_pregunta, pregunta = :pregunta, valor = :valor  WHERE id = :id";
       try {
          $cn = \Core\Models::instance();
          $query = $cn->consulta($sql);
@@ -230,7 +218,7 @@ class Qltformulario {
    }
 
    public static function delete($data) {
-      $sql = 'DELETE FROM qlt_formulario WHERE id = :id';
+      $sql = 'DELETE FROM qlt_preguntas WHERE id = :id';
       try {
          $cn = \Core\Models::instance();
          $query = $cn->consulta($sql);
