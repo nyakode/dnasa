@@ -20,11 +20,13 @@
       <script src="<?php echo URI . "public/assets/css/popper.js" ?>"></script>
       <script src="<?php echo URI . "public/assets/vendor/bootstrap/js/bootstrap-material-design.js" ?>"></script>
       
+      <script src="<?php echo URI . "public/assets/vendor/moment/moment.js" ?>"></script>
+
       <script src="<?php echo URI . "public/assets/vendor/toastr/toastr.min.js" ?>"></script>
       <script src="<?php echo URI . "public/assets/vendor/waitme/waitMe.js" ?>"></script>
 
       <script src="<?php echo URI . "public/assets/vendor/sweetAlert/sweetalert.min.js" ?>"></script>
-      <script src="<?php echo URI . "public/assets/vendor/datatable/jquery.dataTables.min.js" ?>" ?>"></script>
+      <script src="<?php echo URI . "public/assets/vendor/datatable/jquery.dataTables.min.js" ?>"></script>
       
       <script src="<?php echo URI; ?>public/client/main.js"></script>
       

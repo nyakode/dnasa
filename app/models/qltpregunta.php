@@ -19,11 +19,8 @@ class Qltpregunta {
       $sql = "INSERT INTO qlt_preguntas(formulario_id, detalle_pregunta, pregunta, valor) VALUES (:formulario_id, :detalle_pregunta, :pregunta, :valor)";
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         //$rst = $query->fetchAll();
-
-         if ($rst = $query->fetchAll()) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -46,7 +43,7 @@ class Qltpregunta {
       } catch (\PDOException $e) {
          $result = [
              'response' => false,
-             'class' => 'danger',   
+             'class' => 'danger',
              'title' => 'Error en la consulta!',
              'message' => $e->getMessage(),
              'data' => $e->getCode()
@@ -58,14 +55,10 @@ class Qltpregunta {
 
    public static function readOne($data) {
       $sql = "SELECT qlp.id, qlp.formulario_id, qlf.frm_nombre, qlp.detalle_pregunta, qlp.pregunta,  qlp.valor FROM qlt_preguntas qlp LEFT JOIN qlt_formulario qlf ON qlf.id = qlp.formulario_id WHERE qlp.id = :id";
-      
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         $rst = $query->fetchAll();
-
-         if (!empty($rst)) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -86,15 +79,15 @@ class Qltpregunta {
          return $result;
          die();
       } catch (\PDOException $e) {
-       $result = [
+         $result = [
              'response' => false,
              'class' => 'danger',
              'title' => 'Error en la consulta!',
              'message' => $e->getMessage(),
              'data' => $data
          ];
-         
-           return $result;
+
+         return $result;
          die();
       }
    }
@@ -103,13 +96,9 @@ class Qltpregunta {
       $sql = "SELECT qlp.id, qlp.formulario_id, qlf.frm_nombre, qlp.detalle_pregunta, qlp.pregunta,  qlp.valor FROM qlt_preguntas qlp LEFT JOIN qlt_formulario qlf ON qlf.id = qlp.formulario_id ";
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute();
-         $rst = $query->fetchAll();
-
-         if (isset($rst)) {
-            $result = ["data" =>$rst];
-            
+         $rst = $cn->consulta($sql);
+         if ($rst) {
+            $result = ["data" => $rst];
          } else {
             $result = [
                 'response' => true,
@@ -139,11 +128,8 @@ class Qltpregunta {
       $sql = "SELECT qlp.id, qlp.formulario_id, qlf.frm_nombre, qlf.frm_descripcion, qlp.detalle_pregunta, qlp.pregunta,  qlp.valor FROM qlt_preguntas qlp LEFT JOIN qlt_formulario qlf ON qlf.id = qlp.formulario_id  WHERE qlp.formulario_id = :formulario_id";
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         $rst = $query->fetchAll();
-
-         if (!empty($rst)) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -180,11 +166,8 @@ class Qltpregunta {
       $sql = "UPDATE qlt_preguntas SET formulario_id=:formulario_id ,detalle_pregunta = :detalle_pregunta, pregunta = :pregunta, valor = :valor  WHERE id = :id";
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         $rst = $query->fetchAll();
-
-         if (!empty($rst)) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -221,11 +204,8 @@ class Qltpregunta {
       $sql = 'DELETE FROM qlt_preguntas WHERE id = :id';
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         $rst = $query->fetchAll();
-
-         if (!empty($rst)) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',

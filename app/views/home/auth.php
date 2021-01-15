@@ -54,7 +54,7 @@
       <h1 class="h3 font-weight-normal">DNASA</h1>
       <h2 class="h4 mb-4"><small>Direcci&oacute;n Nacional de Asistencia de los Servicios al Asegurado</small></h2>
       <label for="usuario" class="sr-only">Nombre de Usuario</label>
-      <input type="text" id="usuario" name ="usuario" class="form-control" placeholder="Nombre de Usuario" required autofocus>
+      <input type="text" id="usuario" name ="usuario" class="form-control" placeholder="Nombre de Usuario" required autofocus autocomplete="false">
       <label for="clave" class="sr-only">Clave de Acceso</label>
       <input type="password" id="clave" name ="clave" class="form-control" placeholder="Clave de Acceso" required>
       <div class="checkbox mb-3">

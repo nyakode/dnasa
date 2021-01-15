@@ -19,11 +19,8 @@ class Qltformulario {
       $sql = "INSERT INTO qlt_formulario(frm_nombre, frm_descripcion, tipo_form, creador, estado, creacion) VALUES  (:frm_nombre, :frm_descripcion, :tipo_form, :creador, :estado, :creacion)";
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         //$rst = $query->fetchAll();
-
-         if ($rst = $query->fetchAll()) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -46,7 +43,7 @@ class Qltformulario {
       } catch (\PDOException $e) {
          $result = [
              'response' => false,
-             'class' => 'danger',   
+             'class' => 'danger',
              'title' => 'Error en la consulta!',
              'message' => $e->getMessage(),
              'data' => $e->getCode()
@@ -63,14 +60,11 @@ class Qltformulario {
               LEFT JOIN inf_laboral il ON il.id = qf.creador 
               LEFT JOIN cfg_tipoform cft ON cft.id = qf.tipo_form 
               WHERE qf.id = :id";
-      
+
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         $rst = $query->fetchAll();
-
-         if (!empty($rst)) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -91,15 +85,15 @@ class Qltformulario {
          return $result;
          die();
       } catch (\PDOException $e) {
-       $result = [
+         $result = [
              'response' => false,
              'class' => 'danger',
              'title' => 'Error en la consulta!',
              'message' => $e->getMessage(),
              'data' => $data
          ];
-         
-           return $result;
+
+         return $result;
          die();
       }
    }
@@ -112,11 +106,8 @@ class Qltformulario {
               LEFT JOIN cfg_tipoform cft ON cft.id = qf.tipo_form";
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute();
-         $rst = $query->fetchAll();
-
-         if (isset($rst)) {
+         $rst = $cn->consulta($sql);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -150,14 +141,11 @@ class Qltformulario {
    }
 
    public static function filter($data) {
-      $sql = "SELECT qf.id, qf.frm_nombre, qf.frm_descripcion, qf.tipo_form, cft.tipo,qf.creador, il.usuario, qf.estado, qf.creacion FROM qlt_formulario qf LEFT JOIN inf_laboral il ON il.id = qf.creador LEFT JOIN cfg_tipoform cft ON cft.id = qf.tipo_form WHERE qf.tipo_form = :tipo_form";
+      $sql = "SELECT qf.id, qf.frm_nombre, qf.frm_descripcion, qf.tipo_form, cft.tipo,qf.creador, il.usuario, qf.estado, qf.creacion FROM qlt_formulario qf LEFT JOIN inf_laboral il ON il.id = qf.creador LEFT JOIN cfg_tipoform cft ON cft.id = qf.tipo_form WHERE qf.estado = :estado";
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         $rst = $query->fetchAll();
-
-         if (empty($rst)) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -185,6 +173,8 @@ class Qltformulario {
              'message' => $e->getMessage(),
              'data' => $e->getCode()
          ];
+         return $result;
+         die();
       }
    }
 
@@ -192,11 +182,8 @@ class Qltformulario {
       $sql = "UPDATE qlt_formulario SET frm_nombre = :frm_nombre, frm_descripcion = :frm_descripcion, tipo_form = :tipo_form, estado = :estado WHERE id = :id";
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         $rst = $query->fetchAll();
-
-         if (!empty($rst)) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',
@@ -233,11 +220,8 @@ class Qltformulario {
       $sql = 'DELETE FROM qlt_formulario WHERE id = :id';
       try {
          $cn = \Core\Models::instance();
-         $query = $cn->consulta($sql);
-         $query->execute($data);
-         $rst = $query->fetchAll();
-
-         if (!empty($rst)) {
+         $rst = $cn->consulta($sql, $data);
+         if ($rst) {
             $result = [
                 'response' => true,
                 'class' => 'success',

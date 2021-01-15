@@ -3,35 +3,35 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-$(document).ready(function () {
-   $("#btn-submit").on("click", login_auth);
+$(document).ready(function() {
+    $("#btn-submit").on("click", login_auth);
 });
 
 function login_auth(event) {
-   event.preventDefault();
-   var form = $("#loginForm");
-   var data = new FormData(form.get(0));
-   var usuario = $('#usuario').val();
-   var clave = $("#clave").val();
-   data.append('usuario', usuario);
-   data.append('calve', clave);
-
-   $.ajax({
-      url: uri + 'home/authAjax',
-      type: 'post',
-      dataType: 'json',
-      contentType: false,
-      processData: false,
-      cache: false,
-      data: data,
-      success: function (data) {
-
-         toastr.error(data.message, data.title);
-         window.location.href = uri;
-      },
-      error: function (e) {
-         toastr.error(e.message, e.title);
-      },
-   });
+    event.preventDefault();
+    var data = {
+        'usuario': $("#usuario").val(),
+        'clave': $("#clave").val()
+    }
+    $.ajax({
+        url: uri + 'home/authAjax',
+        type: 'POST',
+        dataType: 'json',
+        data,
+        beforeSend: function() {
+            $("#loginForm").waitMe({
+                effect: 'pulse',
+                waitTime: 2000,
+                text: 'Autenticando...'
+            })
+        }
+    }).done(function(result) {
+        console.log(result);
+        selectToastr(result.class, result.message, result.title);
+        window.location.href = uri;
+    }).fail(function(e) {
+        console.error(e);
+        result = e.responseJSON;
+        selectToastr(result.class, result.message, result.title);
+    })
 }

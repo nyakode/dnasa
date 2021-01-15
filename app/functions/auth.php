@@ -39,13 +39,13 @@ class Auth {
                 'token' => self::setToken(),
                 'exp' => time() + self::$ext_time
             ];
-            setcookie(LOGIN, json_encode($data), time() + self::$ext_time, '/');
+            setcookie(LOGIN, json_encode($data), time() + self::$ext_time, '/dnasa');
             return true;
          } else {
             throw new \Exception("Variable usuario esta vacía", 400);
          }
       } else {
-         throw new \Exception("Cookie ya existe");
+         throw new \Exception("Cookie ya existe", 500);
       }
    }
 
@@ -79,7 +79,7 @@ class Auth {
    public static function validateCookie() {
       if (isset($_COOKIE[LOGIN])) {
          $json = json_decode($_COOKIE[LOGIN], true);
-         
+
          if (empty($json)) {
             return false;
             die();
@@ -90,7 +90,7 @@ class Auth {
             die();
          }
 
-         if ($json['token'] == self::getToken()) { 
+         if ($json['token'] == self::getToken()) {
             return false;
             die();
          }
@@ -98,13 +98,16 @@ class Auth {
          return true;
       }
       return false;
-      die();   
+      die();
    }
 
    public static function destroyCookie() {
       if (self::validateCookie()) {
          unset($_COOKIE[LOGIN]);
-         setcookie(self::$cookie, null, -1);
+         setcookie(LOGIN, '' ,time() -3600, '/dnasa');
+         \App\Functions\Redirect::to('');
+      } else {
+           \App\Functions\Redirect::to('');
       }
    }
 

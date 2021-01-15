@@ -489,85 +489,6 @@ class Ajax {
       }
    }
 
-   public static function cfgequipo($method) {
-      switch ($method) {
-         case 'create':
-            if (isset($_POST)) {
-               $post = [];
-               foreach ($_POST as $nombre_campo => $valor) {
-                  $post[":" . $nombre_campo] = $valor;
-               }
-               $data = \App\Models\Cfgequipo::create($post);
-               header('Content-Type: appliction/json');
-               echo json_encode($data);
-               die();
-            }
-            break;
-
-         case 'readOne':
-            if (isset($_POST)) {
-               $post = [];
-               foreach ($_POST as $nombre_campo => $valor) {
-                  $post[":" . $nombre_campo] = $valor;
-               }
-               $data = \App\Models\Cfgequipo::readOne($post);
-               header('Content-Type: appliction/json');
-               echo json_encode($data);
-               die();
-            }
-            break;
-
-         case 'readAll':
-            $data = \App\Models\Cfgequipo::readAll();
-            header('Content-Type: appliction/json');
-            echo json_encode($data);
-            die();
-            break;
-
-         case 'filter':
-            if (isset($_POST)) {
-               $post = [];
-               foreach ($_POST as $nombre_campo => $valor) {
-                  $post[":" . $nombre_campo] = $valor;
-               }
-               $data = \App\Models\Cfgequipo::filter($post);
-               header('Content-Type: appliction/json');
-               echo json_encode($data);
-               die();
-            }
-            break;
-
-         case 'update':
-            if (isset($_POST)) {
-               $post = [];
-               foreach ($_POST as $nombre_campo => $valor) {
-                  $post[":" . $nombre_campo] = $valor;
-               }
-               $data = \App\Models\Cfgequipo::update($post);
-               header('Content-Type: application/json');
-               echo json_encode($data);
-               die();
-            }
-            break;
-
-         case 'delete':
-            if (isset($_POST)) {
-               $post = [];
-               foreach ($_POST as $nombre_campo => $valor) {
-                  $post[":" . $nombre_campo] = $valor;
-               }
-               $data = \App\Models\Cfgequipo::delete($data);
-               header("Content-Type: application/json");
-               echo json_encode($data);
-               die();
-            }
-            break;
-
-         default:
-            break;
-      }
-   }
-
    public static function cfggenero($method) {
       switch ($method) {
          case 'create':
@@ -1169,7 +1090,6 @@ class Ajax {
             }
             break;
 
-
          case 'update':
             if (isset($_POST)) {
                $post = [];
@@ -1699,7 +1619,7 @@ class Ajax {
                foreach ($_POST as $nombre_campo => $valor) {
                   $post[":" . $nombre_campo] = $valor;
                }
-                   $data = \App\Models\Qltformulario::readOne($post);
+               $data = \App\Models\Qltformulario::readOne($post);
                header('Content-Type: appliction/json');
                echo json_encode($data);
                die();
@@ -1772,7 +1692,6 @@ class Ajax {
             }
             break;
 
-
          case 'readAll':
             $data = \App\Models\Cfgtipoform::readAll();
             header('Content-Type: appliction/json');
@@ -1811,7 +1730,7 @@ class Ajax {
       }
    }
 
- public static function qltpreguntas($method) {
+   public static function qltpreguntas($method) {
       switch ($method) {
          case 'create':
             if (isset($_POST)) {
@@ -1886,6 +1805,155 @@ class Ajax {
             break;
 
          default:
+            break;
+      }
+   }
+
+   /**
+    *
+    */
+   public static function referencias($method) {
+      switch ($method) {
+         case 'cargo':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Referencias::filterCargo($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'genero':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Referencias::filterGenero($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'perfil':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Referencias::filterPerfil($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'estado':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Referencias::filterEstado($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'equipo':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Referencias::filterEquipo($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+      }
+   }
+
+   public static function qltevaluaciones($method) {
+      switch ($method) {
+         case 'create':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltevaluaciones::create($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'readall':
+
+            $data = \App\Models\Qltevaluaciones::readAll();
+            header('Content-Type: appliction/json');
+            echo json_encode($data);
+            die();
+            break;
+
+         case 'readone':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltevaluaciones::readOne($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'readbyuser':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltevaluaciones::readByUser($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'readbyevaluator':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltevaluaciones::readByEvaluator($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'readbyteam':
+            if (isset($_POST)) {
+               $post = [];
+               foreach ($_POST as $nombre_campo => $valor) {
+                  $post[":" . $nombre_campo] = $valor;
+               }
+               $data = \App\Models\Qltevaluaciones::readByTeam($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
             break;
       }
    }

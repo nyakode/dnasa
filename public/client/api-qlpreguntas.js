@@ -1,45 +1,13 @@
 // autocarga de funciones
 $(document).ready(function() {
-    //listar();
-    //  listar();
+    
     listarPreguntas();
     listForms();
     $("#frm_process").on("click", procesar);
     $("#tbl_preg").on("click", ".btn-editar", cargarDatos);
     $("#tbl_preg").on("click", ".btn-eliminar", eliminarRegistro);
-    //$("#tbl_preguntas").dataTable();
+    
 });
-//FUNCIONALIDAES
-function listar() {
-    $.ajax({
-        url: uri + 'ajax/qltpreguntas/readAll',
-        type: 'GET',
-        dataType: 'json',
-        // data: {param1: 'value1'},
-        beforeSend: function() {
-            $("table").waitMe({
-                waitTime: 800
-            });
-        }
-    }).done(function(result) {
-        var item = result.data;
-        var text = "<tr>";
-        for (var i = item.length - 1; i >= 0; i--) {
-            text += "<td scope='row'>" + item[i].id + "</td>";
-            text += "<td>" + item[i].frm_nombre + "</td>";
-            text += "<td>" + item[i].pregunta + "</td>";
-            text += "<td>" + item[i].detalle_pregunta + "</td>";
-            text += "<td>" + item[i].valor + "</td>";
-            text += "<td><div class='btn-group' role='group' aria-label=''>";
-            text += "<button type='button' class='btn btn-sm btn-success btn-editar' ><i class='far fa-edit'></i></button>";
-            text += "<button type='button' class='btn  btn-sm btn-danger btn-eliminar'><i class='far fa-trash-alt'></i></button></div></tr>";
-        }
-        document.getElementById("tbl_preg").innerHTML = text;
-    }).fail(function(e) {
-        console.log(e);
-        toastr.error(e.message, e.title);
-    });;
-}
 
 function listarPreguntas() {
     $("#tbl_preguntas").dataTable({
@@ -100,7 +68,7 @@ function procesar(event) {
         }).done(function(result) {
             toastr.success(result.message, result.title);
             limpiarForm();
-            listar();
+            listarPreguntas();
         }).fail(function(e) {
             toastr.error(e.message, e.title);
         });
@@ -114,7 +82,7 @@ function procesar(event) {
             toastr.success(result.message, result.title);
             console.log(data);
             limpiarForm()
-            listar();
+            listarPreguntas();
         }).fail(function(e) {
             toastr.error(e.message, e.title);
             console.log(e);
@@ -164,7 +132,7 @@ function eliminarRegistro() {
                 },
             }).done(function(r) {
                 toastr.success(r.mensjae, r.title);
-                listar();
+                listarPreguntas();
             }).fail(function(e) {
                 toastr.error(e.mensjae, e.title);
                 console.log(e);

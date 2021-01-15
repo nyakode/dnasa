@@ -44,7 +44,7 @@
                <a class="dropdown-item" href="<?php echo URI ?>usuario">Perfil</a>
                <a class="dropdown-item" href="#">Another action</a>
                <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="#">Something else here</a>
+               <a class="dropdown-item" href="<?php echo URI ?>home/logout">Cerrar Sesion</a>
             </div>
          </li>
       </ul>

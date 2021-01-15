@@ -1,4 +1,4 @@
-<?php require_once ('inc_navs.php'); ?>
+<?php require_once 'inc_navs.php';?>
 <script src="<?php echo URI ?>public/client/api-evaluacion.js"></script>
 <style type="text/css">
    .bmd-form-group{
@@ -17,25 +17,40 @@
             <div class="card-body">
 
                <form action="" id="evaluaciones">
+                <div class="form-group">
+                      <input type="text" id="creador" name="creador" hidden value="<?php
+if (isset($_COOKIE[LOGIN])) {
+    $a = json_decode($_COOKIE[LOGIN], true);
+    echo ($a['id']);
+}
+?> ">
+                    </div>
+               <div class="form-group">
+                      <input type="text" id="inicio" name="inicio" hidden>
+                    </div>
+                <div class="form-group">
+                      <input type="text" id="form_id" name="form_id" hidden>
+                    </div>
                   <div class="form-group">
                      <div class="row">
                         <div class="col-md-8">
                            <p>Seleccionar Coordinador</p>
                         </div>
                         <div class="col-md-4">
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control" id="coordinador_id" name="coordinador_id">
                            <option>1</option>
                         </select>
                         </div>
                      </div>
                   </div>
                   <div class="form-group">
+
                      <div class="row">
                         <div class="col-md-8">
                            <p>Seleccionar Operador</p>
                         </div>
                         <div class="col-md-4">
-                           <select class="form-control" id="exampleFormControlSelect1">
+                           <select class="form-control" id="opeador_id" name="opeador_id">
                               <option>1</option>
                            </select>
                         </div>
@@ -54,11 +69,11 @@
                      </div>
                   </div>
                   <div class="list-group" id="preg_evaluacion">
-                     
-                  </div>
 
+                  </div>
+                  <button type='button' class='btn btn-raised btn-secondary btn-block' id='p_evaluar' name='p_evaluar'>Procesar evaluación</button>
                </form>
-               
+
             </div>
          </div>
       </div>
@@ -77,22 +92,22 @@
       <div class="modal-body">
             <form id="frmSelect">
             <div class="form-group">
-               
+
                <select class="form-control" id="formulario_id">
-                  
+
                </select>
             </div>
          </form>
          <div class="row">
          <div class="col-md-12">
-            <div id="detalle_id"></div>      
+            <div id="detalle_id"></div>
          </div>
       </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-secondary" id="dismissmodal">Cerrar</button>
         <button type="button" class="btn btn-primary" id="buildForm">Seleccionar Formulario</button>
       </div>
     </div>
   </div>
-</div>   
+</div>

@@ -34,4 +34,12 @@ class Redirect {
 			$str = '';
 		}
 	}
+   
+   public static  function debug($param) {
+      $t = "<script type='text/javascript'>";
+      $t += "console.log(".$param."');";
+      $t += "</script>";
+      
+      echo $t;
+   }
 }

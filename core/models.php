@@ -34,10 +34,63 @@ class Models {
    }
 
    /**
-    * @return \PDO
+    * 
+    * @param type $sql
+    * @param type $params
+    * @return boolean
     */
-   public function consulta($sql) {
-      return $this->connect->prepare($sql);
+   public function consulta($sql, $params = []) {
+      $link = $this->connect;
+      $link->beginTransaction();
+      $query = $link->prepare($sql);
+
+      if ($params) {
+         if (!$query->execute($params)) {
+            $link->rollBack();
+            $error = $query->errorInfo();
+            return $error;
+         }
+      } else {
+         if (!$query->execute()) {
+            $link->rollBack();
+            $error = $query->errorInfo();
+            return $error;
+         }
+      }
+
+
+
+      if (strpos($sql, 'INSERT') !== FALSE) {
+         $id = $link->lastInsertId();
+         $link->commit();
+         return $id;
+         die();
+      }
+
+      if (strpos($sql, 'SELECT') !== FALSE) {
+         $result = $query->rowCount() > 0 ? $query->fetchAll() : false;
+         return $result;
+      }
+
+      if (strpos($sql, 'UPDATE') !== FALSE) {
+         $link->commit();
+         return true;
+         die();
+      }
+
+      if (strpos($sql, 'DELETE') !== FALSE) {
+         if ($query->rowCount() > 0) {
+            $link->commit();
+            return true;
+            die();
+         }
+         $link->rollBack();
+         return false;
+      }
+
+      $link->commit();
+      return true;
+      die();
    }
 
    public function cerrar() {

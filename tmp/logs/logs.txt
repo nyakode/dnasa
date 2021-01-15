@@ -238,3 +238,1631 @@
 #1 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[11-Jan-2021 10:04:33 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1941
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 10:04:34 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1941
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 10:09:58 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1941
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 10:09:58 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1941
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 10:14:16 America/Panama] #ParseError syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)(/srv/http/dnasa/app/controllers/ajax.php): 1957
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 10:14:16 America/Panama] #ParseError syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)(/srv/http/dnasa/app/controllers/ajax.php): 1957
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 10:14:40 America/Panama] #ParseError syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)(/srv/http/dnasa/app/controllers/ajax.php): 1957
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 10:14:40 America/Panama] #ParseError syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)(/srv/http/dnasa/app/controllers/ajax.php): 1957
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 10:18:08 America/Panama] #ParseError syntax error, unexpected '='(/srv/http/dnasa/app/models/referencias.php): 11
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): referencias
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[11-Jan-2021 10:19:05 America/Panama] #ParseError syntax error, unexpected '='(/srv/http/dnasa/app/models/referencias.php): 11
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): referencias
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[11-Jan-2021 10:20:24 America/Panama] #ParseError syntax error, unexpected '='(/srv/http/dnasa/app/models/referencias.php): 11
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): referencias
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[11-Jan-2021 10:23:23 America/Panama] #ParseError syntax error, unexpected '='(/srv/http/dnasa/app/models/referencias.php): 10
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): referencias
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[11-Jan-2021 10:28:29 America/Panama] #ParseError syntax error, unexpected '='(/srv/http/dnasa/app/models/referencias.php): 10
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): referencias
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[11-Jan-2021 11:04:00 America/Panama] #ParseError syntax error, unexpected '='(/srv/http/dnasa/app/models/referencias.php): 10
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): referencias
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[11-Jan-2021 11:04:02 America/Panama] #ParseError syntax error, unexpected '='(/srv/http/dnasa/app/models/referencias.php): 10
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): referencias
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[11-Jan-2021 11:04:53 America/Panama] #Error Call to a member function fetchColumn() on array(/srv/http/dnasa/app/models/referencias.php): 57
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/ajax.php(1907): filterCargo
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): referencias
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[11-Jan-2021 11:05:28 America/Panama] #Error Call to a member function fetchColumn() on array(/srv/http/dnasa/app/models/referencias.php): 57
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/ajax.php(1907): filterCargo
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): referencias
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[11-Jan-2021 11:05:30 America/Panama] #Error Call to a member function fetchColumn() on array(/srv/http/dnasa/app/models/referencias.php): 57
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/ajax.php(1907): filterCargo
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): referencias
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[11-Jan-2021 11:07:33 America/Panama] #Error Call to a member function fetchColumn() on array(/srv/http/dnasa/app/models/referencias.php): 71
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/ajax.php(1907): filterCargo
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): referencias
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/ajax.php(1907): App\Models\Referencias::filterCargo()
+#1 [internal function]: App\Controllers\Ajax::referencias()
+#2 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[11-Jan-2021 11:12:08 America/Panama] #ParseError syntax error, unexpected ']', expecting variable (T_VARIABLE) or '{' or '$'(/srv/http/dnasa/app/models/referencias.php): 72
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): referencias
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(1907): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::referencias()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[11-Jan-2021 11:28:10 America/Panama] PHP Fatal error:  Cannot redeclare App\Models\Referencias::filterPerfil() in /srv/http/dnasa/app/models/referencias.php on line 169
+[11-Jan-2021 11:28:27 America/Panama] PHP Fatal error:  Cannot redeclare App\Models\Referencias::filterPerfil() in /srv/http/dnasa/app/models/referencias.php on line 169
+[11-Jan-2021 11:28:31 America/Panama] PHP Fatal error:  Cannot redeclare App\Models\Referencias::filterPerfil() in /srv/http/dnasa/app/models/referencias.php on line 169
+[11-Jan-2021 11:34:47 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1955
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 11:34:47 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1955
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 11:34:50 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1955
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 11:35:35 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1955
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 11:35:35 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1955
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[11-Jan-2021 11:35:35 America/Panama] #ParseError syntax error, unexpected 'case' (T_CASE)(/srv/http/dnasa/app/controllers/ajax.php): 1955
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(17): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[14-Jan-2021 09:48:44 America/Panama] #ParseError syntax error, unexpected ']', expecting variable (T_VARIABLE) or '{' or '$'(/srv/http/dnasa/app/models/qltevaluaciones.php): 48
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(2001): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::qltevaluaciones()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(2001): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::qltevaluaciones()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#1 /srv/http/dnasa/app/controllers/ajax.php(2001): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(2001): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::qltevaluaciones()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#2 (): qltevaluaciones
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(2001): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::qltevaluaciones()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(2001): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::qltevaluaciones()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+#4 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/app/controllers/ajax.php(2001): spl_autoload_call()
+#2 [internal function]: App\Controllers\Ajax::qltevaluaciones()
+#3 /srv/http/dnasa/core/router.php(30): call_user_func_array()
+#4 /srv/http/dnasa/index.php(20): Core\Router::start()
+#5 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#5{main})
+[14-Jan-2021 12:34:12 America/Panama] #Exception /srv/http/dnasa/core/exception.php(/srv/http/dnasa/core/autoload.php): 14
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(32): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 (#0 (): Core\{closure}
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(32): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#1 /srv/http/dnasa/core/router.php(32): spl_autoload_call
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(32): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+#2 /srv/http/dnasa/index.php(20): start
+	 #0 [internal function]: Core\Autoload::Core\{closure}()
+#1 /srv/http/dnasa/core/router.php(32): spl_autoload_call()
+#2 /srv/http/dnasa/index.php(20): Core\Router::start()
+#3 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#3{main})
+[14-Jan-2021 19:55:14 America/Panama] #Exception Metodo coegimientorr no encontrado dentro de el controlador ajax(/srv/http/dnasa/core/router.php): 36
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 19:55:31 America/Panama] #Exception Metodo corregimiento no encontrado dentro de el controlador ajax(/srv/http/dnasa/core/router.php): 36
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 20:00:11 America/Panama] #Exception Cookie ya existe(/srv/http/dnasa/app/functions/auth.php): 48
+	 #0 /srv/http/dnasa/app/controllers/home.php(39): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/home.php(39): initCookie
+	 #0 /srv/http/dnasa/app/controllers/home.php(39): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): authAjax
+	 #0 /srv/http/dnasa/app/controllers/home.php(39): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func
+	 #0 /srv/http/dnasa/app/controllers/home.php(39): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/home.php(39): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[14-Jan-2021 20:09:08 America/Panama] #Error Access to undeclared static property: App\Functions\Auth::$cookie(/srv/http/dnasa/app/functions/auth.php): 107
+	 #0 /srv/http/dnasa/app/controllers/home.php(28): App\Functions\Auth::destroyCookie()
+#1 [internal function]: App\Controllers\Home->logout()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/home.php(28): destroyCookie
+	 #0 /srv/http/dnasa/app/controllers/home.php(28): App\Functions\Auth::destroyCookie()
+#1 [internal function]: App\Controllers\Home->logout()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): logout
+	 #0 /srv/http/dnasa/app/controllers/home.php(28): App\Functions\Auth::destroyCookie()
+#1 [internal function]: App\Controllers\Home->logout()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func
+	 #0 /srv/http/dnasa/app/controllers/home.php(28): App\Functions\Auth::destroyCookie()
+#1 [internal function]: App\Controllers\Home->logout()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/home.php(28): App\Functions\Auth::destroyCookie()
+#1 [internal function]: App\Controllers\Home->logout()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[14-Jan-2021 21:32:59 America/Panama] #Exception Cookie ya existe(/srv/http/dnasa/app/functions/auth.php): 48
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/home.php(44): initCookie
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): authAjax
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[14-Jan-2021 21:33:00 America/Panama] #Exception Cookie ya existe(/srv/http/dnasa/app/functions/auth.php): 48
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/home.php(44): initCookie
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): authAjax
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[14-Jan-2021 21:33:01 America/Panama] #Exception Cookie ya existe(/srv/http/dnasa/app/functions/auth.php): 48
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/home.php(44): initCookie
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): authAjax
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[14-Jan-2021 21:33:12 America/Panama] #Exception Cookie ya existe(/srv/http/dnasa/app/functions/auth.php): 48
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/home.php(44): initCookie
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): authAjax
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/home.php(44): App\Functions\Auth::initCookie()
+#1 [internal function]: App\Controllers\Home->authAjax()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[14-Jan-2021 22:55:06 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 22:55:06 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 22:59:13 America/Panama] #ParseError syntax error, unexpected '<', expecting end of file(/srv/http/dnasa/app/views/evaluaciones/add_evaluacion.php): 21
+	 #0 /srv/http/dnasa/app/controllers/evaluaciones.php(29): Core\Engine::render()
+#1 [internal function]: App\Controllers\Evaluaciones->add_evaluacion()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 (#0 /srv/http/dnasa/app/controllers/evaluaciones.php(29): render
+	 #0 /srv/http/dnasa/app/controllers/evaluaciones.php(29): Core\Engine::render()
+#1 [internal function]: App\Controllers\Evaluaciones->add_evaluacion()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#1 (): add_evaluacion
+	 #0 /srv/http/dnasa/app/controllers/evaluaciones.php(29): Core\Engine::render()
+#1 [internal function]: App\Controllers\Evaluaciones->add_evaluacion()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func
+	 #0 /srv/http/dnasa/app/controllers/evaluaciones.php(29): Core\Engine::render()
+#1 [internal function]: App\Controllers\Evaluaciones->add_evaluacion()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+#3 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/app/controllers/evaluaciones.php(29): Core\Engine::render()
+#1 [internal function]: App\Controllers\Evaluaciones->add_evaluacion()
+#2 /srv/http/dnasa/core/router.php(21): call_user_func()
+#3 /srv/http/dnasa/index.php(20): Core\Router::start()
+#4 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#4{main})
+[14-Jan-2021 22:59:13 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 22:59:13 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 22:59:29 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 22:59:29 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:00:30 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:00:30 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:00:45 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:00:45 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:00:47 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:00:47 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:02:41 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:02:41 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:04:21 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:04:21 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:06:11 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:06:11 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:07:14 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:07:14 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:09:24 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:09:24 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:09:48 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:09:48 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:14:12 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:14:12 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:14:26 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:14:26 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:16:11 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:16:11 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:18:48 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:18:48 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:19:01 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:19:01 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:19:03 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:19:03 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:19:12 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:19:12 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:19:14 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:19:14 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:20:09 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:20:09 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:20:34 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:20:34 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:21:03 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:21:03 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:23:11 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:23:11 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:26:58 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:26:58 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:29:00 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:29:00 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:29:02 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[14-Jan-2021 23:29:02 America/Panama] #Exception Controlador <strong>public</strong> no existe(/srv/http/dnasa/core/router.php): 41
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 (#0 /srv/http/dnasa/index.php(20): start
+	 #0 /srv/http/dnasa/index.php(20): Core\Router::start()
+#1 {main} 
+	 ()
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
