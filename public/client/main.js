@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var cookieValor = document.cookie.replace(/(?:(?:^|.*;\s*)AUTH\s*\=\s*([^;]*).*$)|^.*$/, "$1");
-console.log(cookieValor);
-if (cookieValor) {
-    var txtCookie = decodeURIComponent(cookieValor);
-    const uData = JSON.parse(txtCookie);
- 
+function uData() {
+    var cookieValor = document.cookie.replace(/(?:(?:^|.*;\s*)AUTH\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+    console.log(cookieValor);
+    if (cookieValor) {
+        var txtCookie = decodeURIComponent(cookieValor);
+        var uData = JSON.parse(txtCookie);
+        return uData;
+    }
 }
 
 function selectToastr(type, message, title) {

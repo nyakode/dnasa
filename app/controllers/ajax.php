@@ -1897,7 +1897,6 @@ class Ajax {
             break;
 
          case 'readall':
-
             $data = \App\Models\Qltevaluaciones::readAll();
             header('Content-Type: appliction/json');
             echo json_encode($data);
@@ -1950,6 +1949,66 @@ class Ajax {
                   $post[":" . $nombre_campo] = $valor;
                }
                $data = \App\Models\Qltevaluaciones::readByTeam($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'readevaluatorperiod':
+            if (isset($_COOKIE[LOGIN])) {
+               $a = json_decode($_COOKIE[LOGIN], true);
+               $post[":creador_id"] = $a['id'];
+
+               $data = \App\Models\Qltevaluaciones::readByEvaluatorPeriod($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+            case 'countevaluationperiod':
+            if (isset($_COOKIE[LOGIN])) {
+               $a = json_decode($_COOKIE[LOGIN], true);
+               $post[":creador_id"] = $a['id'];
+
+               $data = \App\Models\Qltevaluaciones::countEvaluationPeriod($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'avgevaluationperiod':
+            if (isset($_COOKIE[LOGIN])) {
+               $a = json_decode($_COOKIE[LOGIN], true);
+               $post[":creador_id"] = $a['id'];
+
+               $data = \App\Models\Qltevaluaciones::avgEvaluationPeriod($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'hightevaluationperiod':
+            if (isset($_COOKIE[LOGIN])) {
+               $a = json_decode($_COOKIE[LOGIN], true);
+               $post[":creador_id"] = $a['id'];
+
+               $data = \App\Models\Qltevaluaciones::hightEvaluationPeriod($post);
+               header('Content-Type: appliction/json');
+               echo json_encode($data);
+               die();
+            }
+            break;
+
+         case 'lowevaluationperiod':
+            if (isset($_COOKIE[LOGIN])) {
+               $a = json_decode($_COOKIE[LOGIN], true);
+               $post[":creador_id"] = $a['id'];
+
+               $data = \App\Models\Qltevaluaciones::lowEvaluationPeriod($post);
                header('Content-Type: appliction/json');
                echo json_encode($data);
                die();

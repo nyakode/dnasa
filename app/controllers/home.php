@@ -96,4 +96,8 @@ class Home {
       }
    }
 
+   public function nombre(){
+     ;
+   }
+
 }

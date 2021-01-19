@@ -18,3 +18,6 @@ set_error_handler('Core\Error::errorHandler');
 set_exception_handler('Core\Error::exceptionHandler');
 
 Core\Router::start(new \Core\Request());
+
+
+

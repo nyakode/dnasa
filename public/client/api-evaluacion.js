@@ -11,6 +11,7 @@ $(document).ready(function() {
     listarCoordinadores();
     $("#coordinador_id").on("change", filtrarOperador);
     $("#p_evaluar").on("click", guardarEvaluacion);
+    
 });
 // FUNCIONALIDADES
 // listar formularios
@@ -128,7 +129,7 @@ function listarCoordinadores() {
 }
 
 function closeModal() {
-    window.location.href = uri + "/evaluaciones";
+    window.location.href = uri + "evaluaciones";
 }
 
 function filtrarOperador() {
@@ -154,7 +155,7 @@ function filtrarOperador() {
 }
 
 function guardarEvaluacion(event) {
-    event.preventDefault();
+    //event.preventDefault();
     var data = {
         form_id: $("#form_id").val(),
         creacion_dt: $("#inicio").val(),
@@ -201,7 +202,8 @@ function guardarEvaluacion(event) {
         data: data,
     }).done(function(result) {
         selectToastr(result.class, result.message, result.title);
-        window.location.href = uri + "/evaluaciones/add_evaluacion";
+        //console.log(result);
+     window.location.href = uri + "evaluaciones/add_evaluacion";
     }).fail(function(error) {
         console.log(error);
     });
