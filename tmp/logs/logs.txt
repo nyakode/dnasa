@@ -873,3 +873,67 @@
 #12 {main} 
 	 ()
 	-------------------------------------------------------------------------------------------------------------------------------#12{main})
+[02-Feb-2021 14:11:45 America/Panama] #Exception Controlador <strong>public</strong> no existe(/var/www/html/dnasa/core/router.php): 41
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (#0 /var/www/html/dnasa/index.php(20): start
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (object)
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[02-Feb-2021 14:11:45 America/Panama] #Exception Controlador <strong>public</strong> no existe(/var/www/html/dnasa/core/router.php): 41
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (#0 /var/www/html/dnasa/index.php(20): start
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (object)
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[02-Feb-2021 14:16:45 America/Panama] #Exception Controlador <strong>public</strong> no existe(/var/www/html/dnasa/core/router.php): 41
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (#0 /var/www/html/dnasa/index.php(20): start
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (object)
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[02-Feb-2021 14:16:45 America/Panama] #Exception Controlador <strong>public</strong> no existe(/var/www/html/dnasa/core/router.php): 41
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (#0 /var/www/html/dnasa/index.php(20): start
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (object)
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[02-Feb-2021 14:17:03 America/Panama] #Exception Controlador <strong>public</strong> no existe(/var/www/html/dnasa/core/router.php): 41
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (#0 /var/www/html/dnasa/index.php(20): start
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (object)
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[02-Feb-2021 14:17:03 America/Panama] #Exception Controlador <strong>public</strong> no existe(/var/www/html/dnasa/core/router.php): 41
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (#0 /var/www/html/dnasa/index.php(20): start
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (object)
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[02-Feb-2021 14:48:43 America/Panama] #Exception Controlador <strong>public</strong> no existe(/var/www/html/dnasa/core/router.php): 41
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (#0 /var/www/html/dnasa/index.php(20): start
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (object)
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})
+[02-Feb-2021 14:48:43 America/Panama] #Exception Controlador <strong>public</strong> no existe(/var/www/html/dnasa/core/router.php): 41
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (#0 /var/www/html/dnasa/index.php(20): start
+	 #0 /var/www/html/dnasa/index.php(20): Core\Router::start(Object(Core\Request))
+#1 {main} 
+	 (object)
+	-------------------------------------------------------------------------------------------------------------------------------#1{main})

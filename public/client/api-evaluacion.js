@@ -89,7 +89,7 @@ function crearFormulario() {
                 p_input += "<p class='d-flex text-muted justify-content-between'>" + preg_data[i]['detalle_pregunta'] + "</p>";
                 p_input += "</div></div><div class='col-md-4'>";
                 p_input += "<select class='form-control' id='preg_" + pid + "'>";
-                p_input += "<option value='" + preg_data[i]['valor'] + "'>Cumplió</option><option value='0'>No Cumplió</option>";
+                p_input += "<option value='" + preg_data[i]['valor'] + "'>Cumplió</option><option value='0' selected>No Cumplió</option>";
                 p_input += "</select></div></div></div>";
             }
             p_input += "<div class='form-group'><label for='notas'>Comentarios</label><textarea id='notas' name='notas' class='form-control' type='text'></textarea></div>";
