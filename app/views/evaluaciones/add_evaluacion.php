@@ -51,18 +51,18 @@
                         </div>
                         <div class="col-md-4">
                            <select class="form-control" id="opeador_id" name="opeador_id">
-                              <option>1</option>
+                              <option>Seleccione un Operador</option>
                            </select>
                         </div>
                      </div>
                   </div>
-                  <div class="form-group">
+                 <div class="form-group">
                      <div class="row">
                         <div class="col-md-8">
                            <p>Seleccione el Servicio</p>
                         </div>
                         <div class="col-md-4">
-                           <select class="form-control" id="exampleFormControlSelect1">
+                           <select class="form-control" id="exampleFormControlSelect1" disabled>
                               <option>1</option>
                            </select>
                         </div>
